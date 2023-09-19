@@ -13,4 +13,10 @@ public class TestController {
     public String getData(){
 return "First Message From AWS Fargate";
     }
+
+    @GetMapping("/message")
+
+    public String getMessage(){
+        return "Second Message From AWS Fargate";
+    }
 }
